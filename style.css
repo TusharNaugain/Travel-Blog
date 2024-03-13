@@ -1,0 +1,146 @@
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+.nav-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling hero section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  z-index: 1;
+  background-image: url(pexels-fabian-wiktor-994605.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  padding-top: 40vh;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff4500;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ff4500;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #ff4500;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #ff6a36;
+}
+
+/* Styling sections */
+.section {
+  padding: 60px;
+  background-color: #d3d3d3;
+  flex: 30px;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling the image */
+
+.container {
+  display: flex;
+  border: 1px solid gray;
+  height: 350px;
+  border-radius: 10px;
+  background-color: rgb(218, 160, 160);
+}
+.Image {
+  flex: 30%;
+}
+.Image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.text {
+  flex: 70%;
+
+  margin: 2%;
+  margin-left: 3%;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #5c5759;
+  padding: 40px 0;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+footer h3 {
+  color: #3f0a0a;
+}
+
+footer p {
+  color: #400808;
+}
+
+
+@media (max-width: 767px) {
+  footer .col-md-6 {
+    margin-bottom: 30px;
+  }
+}
+.contains {
+  display: flex;
+  border: 1px solid rgb(159, 60, 60);
+  height: 150px;
+  border-radius: 10px;
+  background-color: rgb(186, 113, 23);
+}
