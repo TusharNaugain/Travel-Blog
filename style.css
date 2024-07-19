@@ -1,32 +1,32 @@
-/* Header Styling */
+
 .nav-menu ul li {
   display: inline-block;
-  margin-right: 25px; /* Add spacing between menu items */
+  margin-right: 25px; 
 }
 
-/* Hero Section Styling */
+
 .hero-content {
   z-index: 1;
-  background-image: url("pexels-fabian-wiktor-994605.jpg"); /* Correct image URL */
+  background-image: url("pexels-fabian-wiktor-994605.jpg"); 
   height: 100%;
   width: 100%;
-  background-size: cover; /* Ensure proper image scaling */
-  padding-top: 30vh; /* Adjust vertical centering */
+  background-size: cover; 
+  padding-top: 30vh; 
 }
 
 /* Button Styling */
 .hero-button:hover {
-  background-color: #ff6a36; /* Match hover color with background change */
+  background-color: #ff6a36; 
 }
 
-/* Section Styling */
+
 .section {
   padding: 60px;
   background-color: #d3d3d3;
-  flex: 1; /* Adjust flex value */
+  flex: 1;
 }
 .section h2 {
-  font-size: 24px; /* Define font size */
+  font-size: 24px;
 }
 
 
